@@ -9,6 +9,7 @@ public class App {
         numeros.add(2.0);
         numeros.add(10.25);
         numeros.add(4.75);
+        numeros.add(5.10);
 
         Double resultado = sumLista(numeros);
         Double resultadoI = sumListaI(numeros);
@@ -27,6 +28,7 @@ public class App {
         int i = 0;
         while (i < list.size()) {
             suma += list.get(i);
+            //suma = suma + list.get(i); +++
             i++;
         }
         return suma;
